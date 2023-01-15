@@ -1,0 +1,156 @@
+.menu_bar {
+  position: absolute;
+  left: 90vw;
+}
+
+.content_box {
+  display: flex;
+}
+.hero_img {
+  border: 2px dashed gold;
+  border-radius: 100%;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  animation-name: rotate;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.badge_bar {
+  background: #149f39;
+  color: white;
+  width: 11rem;
+  height: 1.4rem;
+  padding: 0.3rem 0.9rem;
+  font-family: "Inter", sans-serif;
+  margin-top: 15vh;
+}
+.cont_sell {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  margin-left: 30px;
+}
+.cont_sell h1 {
+  font-size: 4em;
+}
+.explore_btn {
+  width: 14rem;
+  font-size: 2em;
+  padding: 0.3rem 0.9rem;
+  background: #ffbd03;
+  border: none;
+  color: white;
+}
+
+.promotion {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  justify-content: center;
+}
+.promotion .text_pro {
+  width: 270px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+}
+.promotion .text_pro p {
+  font-weight: 3;
+  margin-top: -9px;
+}
+hr {
+  border: 0.3px solid rgba(13, 13, 13, 0.528);
+  margin-top: 100px;
+}
+.promotion img {
+  padding-top: -1px;
+  width: 100px;
+}
+
+.menu_badge {
+  background: #149f39;
+  color: white;
+  font-size: 25px;
+  width: 7rem;
+  height: 2rem;
+  padding: 0.3rem 0.9rem;
+  font-family: "Inter", sans-serif;
+  margin-left: 45vw;
+  margin-top: 34px;
+}
+.menu_box h1 {
+  font-family: "Inter", sans-serif;
+  margin-left: 42vw;
+  margin-top: 12px;
+}
+
+.grid-container-1 {
+  width: 630px;
+  margin-left: 300px;
+  display: grid;
+  column-gap: 35px;
+  row-gap: 35px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.grid-container-2 {
+  width: 630px;
+  margin-left: 300px;
+  display: grid;
+  column-gap: 35px;
+  margin-top: 35px;
+  grid-template-columns: 1fr 1fr 1fr 1.2fr;
+}
+.grid-item-7 {
+  position: absolute;
+  left: 1242px;
+  top: 1463px;
+}
+.grid-item-6 {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-bottom: 64px;
+
+  background: #fff0db;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.footer img {
+  margin-top: 20px;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 120px;
+}
+.footer > ul > li {
+  font-weight: 3;
+  padding: 2px;
+}
+
+.footer img {
+  width: 8rem;
+  height: 4rem;
+  margin-left: 25rem;
+}
+.footer .newletter {
+  padding-left: 120px;
+}
+.footer input {
+  width: 13rem;
+}
+.footer .icon {
+  padding: 2px;
+}
